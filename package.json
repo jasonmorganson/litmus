@@ -1,0 +1,22 @@
+{
+  "name":         "litmus",
+  "description":  "Literate testing",
+  "keywords":     ["generator", "literate", "testing"],
+  "author":       "Jason Morganson",
+  "version":      "0.0.1",
+  "licenses": [{
+    "type":       "MIT",
+    "url":        "http://opensource.org/licenses/mit-license.php"
+  }],
+  "repository": "https://github.com/jasonmorganson/litmus.git",
+  "engines": {
+    "node":       ">=0.10.0"
+  },
+  "dependencies": {
+    "split": "0.2.5"
+  },
+  "main" :        "./lib/litmus",
+  "bin": {
+    "litmus":      "./bin/litmus"
+  }
+}
