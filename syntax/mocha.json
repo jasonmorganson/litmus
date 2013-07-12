@@ -1,0 +1,11 @@
+{
+  "name":         "mocha",
+  "description":  "Mocha syntax definition for Litmus",
+  "author":       "Jason Morganson",
+  "version":      "0.0.1",
+  "licenses": [{
+    "type":       "MIT",
+    "url":        "http://opensource.org/licenses/mit-license.php"
+  }],
+  "keywords":     ["describe", "it"]
+}

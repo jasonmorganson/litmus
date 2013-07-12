@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var fs, path, dir;
+
+fs = require('fs');
+path = require('path');
+dir = path.join(path.dirname(fs.realpathSync(__filename)), '../');
+
+require(dir + '/lib/litmus.js').run();
