@@ -10,10 +10,11 @@
   }],
   "repository": "https://github.com/jasonmorganson/litmus.git",
   "engines": {
-    "node":       ">=0.10.0"
+    "node":       ">=0.8.0"
   },
   "dependencies": {
-    "split": "0.2.5"
+    "split": "0.2.5",
+    "readable-stream": "1.0.2"
   },
   "main" :        "./lib/litmus",
   "bin": {
